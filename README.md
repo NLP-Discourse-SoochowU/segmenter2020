@@ -1,2 +1,2 @@
-# EDU_Segmentation
+# EDU segmentation
 Blank.
