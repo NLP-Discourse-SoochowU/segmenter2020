@@ -16,26 +16,31 @@
    syntax information we use is significantly useful and the resulting model
    is competitive when compared with the state-of-the-art.
 ```
-<div align=center>
-<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png" width="500" alt="eg"/>
-<br/>
-</div>
 
 <b>-- Model Architecture</b>
 ```
    The figure below illustrates the proposed approach.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png)
+<div align=center>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png" width="700" alt="eg"/>
+<br/>
+</div>
 ```
    Since we use multi-head attention in this work for robustness, we use the
    following loss objective to encourage the divergence between each two attention
    heads.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png)
+<div align=center>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png" width="500" alt="eg"/>
+<br/>
+</div>
 ```
    Here, we display two segmentation results for analysis.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/ana.png)
+<div align=center>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/ana.png" width="700" alt="eg"/>
+<br/>
+</div>
 
 <b>-- Required Packages</b>
 ```
