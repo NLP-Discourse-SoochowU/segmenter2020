@@ -20,24 +20,34 @@
 <b>-- Model Architecture</b>
 ```
    The figure below illustrates the proposed approach.
-```
-<div align=center>
-<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png" width="700" alt="eg"/>
-<br/>
-</div>
-<b>--  </b>
-```
    Since we use multi-head attention in this work for robustness, we use the
    following loss objective to encourage the divergence between each two attention
    heads.
 ```
 <div align=center>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png" width="700" alt="eg"/>
+<br/>
 <img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png" width="360" alt="eg"/>
 <br/>
 </div>
-<b>--  </b>
+<b>--  Example Analysis</b>
 ```
-   Here, we display two segmentation results for analysis.
+   To study the correlation between the EDU segmentation process and the syntactic
+   information we use, we give another analysis about the randomly selected
+   examples in the Figure below. In dependency structure, a fake root is usually added
+   and only one word is the dependent of the root, which we refer to as the root-dep
+   unit (e.g., the word "have" in Figure (a)). Intuitively, we draw partial dependency
+   structure between EDU boundaries and root-dep units for the two examples
+   respectively. And the partial dependency structures in both examples reveal an
+   interesting language phenomenon that those words identifying EDU boundaries
+   are direct dependents of root-dep units. Scrupulously, we further display the
+   proportion of EDU boundaries related to root-dep units in Table 6, and the
+   results show that this language phenomenon is common in both corpora. Under
+   the conduction of explicit dependency structures, those text units serving as
+   dependents of root-dep units are well equipped with "hints" for EDU boundary
+   determination. Hence, we have reason to believe that the refining method we
+   use is stable and useful for RST-style discourse segmentation for languages like
+   English and Chinese.
 ```
 <div align=center>
 <img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/ana.png" width="700" alt="eg"/>
@@ -46,39 +56,20 @@
 
 <b>-- Required Packages</b>
 ```
-   torch==0.4.0
-   numpy==1.14.1
-   nltk==3.3
-   stanfordcorenlp==3.9.1.1
+   coming soon
 ```
 
-<b>-- Train Your Own RST Parser</b>
+<b>-- Usage</b>
 ```
-    Run main.py
-
+   Coming soon.
 ```
-
-<b>-- RST Parsing with Raw Documents</b>
-```
-   1. Prepare your raw documents in data/raw_txt in the format of *.out
-   2. Run the Stanford CoreNLP with the given bash script corpus_rst.sh
-      using the command "./corpus_rst.sh ". Of course, if you use other
-      models for EDU segmentation then you do not need to perform the
-      action in step 2.
-   3. Run parser.py to parse these raw documents into objects of rst_tree
-      class (Wrap them into trees).
-      - segmentation (or you can use your own EDU segmenter)
-      - wrap them into trees, saved in "data/trees_parsed/trees_list.pkl"
-   4. Run drawer.py to draw those trees out by NLTK
-   Note: We did not provide parser codes and it can be easily implemented referring to our previous project.
-```
-[rst_dp2018](https://github.com/NLP-Discourse-SoochowU/rst_dp2018)
 
 <b>-- Reference</b>
 
    Please read the following paper for more technical details
 
-   [Longyin Zhang, Xin Tan, Fang Kong and Guodong Zhou, A Recursive Information Flow Gated Model for RST-Style Text-Level Discourse Parsing.](http://tcci.ccf.org.cn/conference/2019/papers/119.pdf)
+   Longyin Zhang, Fang Kong and Guodong Zhou, Syntax-Guided Sequence to Sequence Modeling for Discourse Segmentation.
+   Conference paper of NLPCC2020.
 
 <b>-- Developer</b>
 ```
