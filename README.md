@@ -30,7 +30,8 @@
 <img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png" width="360" alt="eg"/>
 <br/>
 </div>
-<b>--  Example Analysis</b>
+
+<b>-- Example Analysis</b>
 ```
    To study the correlation between the EDU segmentation process and the syntactic
    information we use, we give another analysis about the randomly selected
@@ -49,6 +50,7 @@
    use is stable and useful for RST-style discourse segmentation for languages like
    English and Chinese.
 ```
+
 <div align=center>
 <img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/ana.png" width="700" alt="eg"/>
 <br/>
@@ -56,7 +58,7 @@
 
 <b>-- Required Packages</b>
 ```
-   coming soon
+   Coming soon
 ```
 
 <b>-- Usage</b>
