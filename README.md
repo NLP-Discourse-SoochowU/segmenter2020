@@ -16,23 +16,23 @@
    syntax information we use is significantly useful and the resulting model
    is competitive when compared with the state-of-the-art.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/rst_dp2019/blob/master/data/img/fg.png)
+![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png)
 
 <b>-- Model Architecture</b>
 ```
    The figure below illustrates the proposed approach.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/rst_dp2019/blob/master/data/img/fg.png)
+![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png)
 ```
    Since we use multi-head attention in this work for robustness, we use the
    following loss objective to encourage the divergence between each two attention
    heads.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/rst_dp2019/blob/master/data/img/fg.png)
+![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png)
 ```
    Here, we display two segmentation results for analysis.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/rst_dp2019/blob/master/data/img/fg.png)
+![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/ana.png)
 
 <b>-- Required Packages</b>
 ```
