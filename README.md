@@ -16,7 +16,10 @@
    syntax information we use is significantly useful and the resulting model
    is competitive when compared with the state-of-the-art.
 ```
-<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png" width="200" height="50" alt="eg"/><br/>
+<div align=center>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png" width="500" alt="eg"/>
+<br/>
+</div>
 
 <b>-- Model Architecture</b>
 ```
