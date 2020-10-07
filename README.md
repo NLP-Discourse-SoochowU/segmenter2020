@@ -25,15 +25,17 @@
 <img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/model.png" width="700" alt="eg"/>
 <br/>
 </div>
+<b>--  </b>
 ```
    Since we use multi-head attention in this work for robustness, we use the
    following loss objective to encourage the divergence between each two attention
    heads.
 ```
 <div align=center>
-<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png" width="500" alt="eg"/>
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/loss.png" width="360" alt="eg"/>
 <br/>
 </div>
+<b>--  </b>
 ```
    Here, we display two segmentation results for analysis.
 ```
