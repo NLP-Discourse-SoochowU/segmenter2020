@@ -16,7 +16,7 @@
    syntax information we use is significantly useful and the resulting model
    is competitive when compared with the state-of-the-art.
 ```
-![Image text](https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png)
+<img src="https://github.com/NLP-Discourse-SoochowU/segmenter2020/blob/master/data/img/eg.png" width="200" height="50" alt="eg"/><br/>
 
 <b>-- Model Architecture</b>
 ```
