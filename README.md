@@ -2,8 +2,7 @@
 
 <b>-- General Information</b>
 ```
-   [Abstract] Previous studies on RST-style discourse segmentation have
-   achieved impressive results. However, recent neural works either require a
+   [Abstract] Previous studies on RST-style discourse segmentation have achieved impressive results. However, recent neural works either require a
    complex joint training process or heavily rely on powerful pre-trained word
    vectors. Under this condition, a simpler but more robust segmentation
    method is needed. In this work, we take a deeper look into intra-sentence
