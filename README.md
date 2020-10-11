@@ -30,13 +30,13 @@
    To study the correlation between the EDU segmentation process and the syntactic information we use, we give another analysis 
    about the randomly selected examples in the Figure below. In dependency structure, a fake root is usually added and only one 
    word is the dependent of the root, which we refer to as the root-dep unit (e.g., the word "have" in Figure (a)). Intuitively, 
-   we draw partial dependency structure between EDU boundaries and root-dep units for the two examples respectively. And the partial 
-   dependency structures in both examples reveal an interesting language phenomenon that those words identifying EDU boundaries
-   are direct dependents of root-dep units. Scrupulously, we further display the proportion of EDU boundaries related to root-dep 
-   units in Table 6, and the results show that this language phenomenon is common in both corpora. Under the conduction of explicit 
-   dependency structures, those text units serving as dependents of root-dep units are well equipped with "hints" for EDU boundary
-   determination. Hence, we have reason to believe that the refining method we use is stable and useful for RST-style discourse 
-   segmentation for languages like English and Chinese.
+   we draw partial dependency structure between EDU boundaries and root-dep units for the two examples respectively. And the 
+   partial dependency structures in both examples reveal an interesting language phenomenon that those words identifying EDU 
+   boundaries are direct dependents of root-dep units. Scrupulously, we further display the proportion of EDU boundaries related 
+   to root-dep units in Table 6, and the results show that this language phenomenon is common in both corpora. Under the 
+   conduction of explicit dependency structures, those text units serving as dependents of root-dep units are well equipped with
+   "hints" for EDU boundary determination. Hence, we have reason to believe that the refining method we use is stable and useful 
+   for RST-style discourse segmentation for languages like English and Chinese.
 ```
 
 <div align=center>
