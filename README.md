@@ -5,11 +5,11 @@
    [Abstract] Previous studies on RST-style discourse segmentation have achieved impressive results. However, recent neural works 
    either require a complex joint training process or heavily rely on powerful pre-trained word vectors. Under this condition, a 
    simpler but more robust segmentation method is needed. In this work, we take a deeper look into intra-sentence dependencies to 
-   investigate if the syntax information is totally useless, or to what extent it can help improve the discourse segmentation perfor-
-   mance. To achieve this, we propose a sequence-to-sequence model along with a GCN based encoder to well utilize intra-sentence 
-   dependencies and a multi-head biaffine attention based decoder to predict EDU boundaries. Experimental results on two benchmark 
-   corpora show that the syntax information we use is significantly useful and the resulting model is competitive when compared with 
-   the state-of-the-art.
+   investigate if the syntax information is totally useless, or to what extent it can help improve the discourse segmentation 
+   performance. To achieve this, we propose a sequence-to-sequence model along with a GCN based encoder to well utilize intra-
+   sentence dependencies and a multi-head biaffine attention based decoder to predict EDU boundaries. Experimental results on two 
+   benchmark corpora show that the syntax information we use is significantly useful and the resulting model is competitive when 
+   compared with the state-of-the-art.
 ```
 
 <b>-- Model Architecture</b>
