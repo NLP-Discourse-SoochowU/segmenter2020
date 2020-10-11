@@ -70,8 +70,7 @@
 
    Please read the following paper for more technical details
 
-   Longyin Zhang, Fang Kong and Guodong Zhou, Syntax-Guided Sequence to Sequence Modeling for Discourse Segmentation.
-   Conference paper of NLPCC2020.
+   Zhang L., Kong F., Zhou G. (2020) Syntax-Guided Sequence to Sequence Modeling for Discourse Segmentation. In: Zhu X., Zhang M., Hong Y., He R. (eds) Natural Language Processing and Chinese Computing. NLPCC 2020. Lecture Notes in Computer Science, vol 12431. Springer, Cham. https://doi.org/10.1007/978-3-030-60457-8_8
 
 <b>-- Developer</b>
 ```
